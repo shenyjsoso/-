@@ -7,25 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C659D4720148073009DD5D0 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C659D3D20148073009DD5D0 /* FMDatabase.m */; };
+		9C659D4820148073009DD5D0 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C659D3F20148073009DD5D0 /* FMDatabaseAdditions.m */; };
+		9C659D4920148073009DD5D0 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C659D4120148073009DD5D0 /* FMDatabasePool.m */; };
+		9C659D4A20148073009DD5D0 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C659D4320148073009DD5D0 /* FMDatabaseQueue.m */; };
+		9C659D4B20148073009DD5D0 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C659D4620148073009DD5D0 /* FMResultSet.m */; };
+		9C659D4E201481C0009DD5D0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C659D4D201481C0009DD5D0 /* libsqlite3.tbd */; };
 		9C6A616D20142CF8003D43E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A616C20142CF8003D43E6 /* AppDelegate.m */; };
-		9C6A617020142CF8003D43E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A616F20142CF8003D43E6 /* ViewController.m */; };
-		9C6A617320142CF8003D43E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6A617120142CF8003D43E6 /* Main.storyboard */; };
 		9C6A617520142CF8003D43E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6A617420142CF8003D43E6 /* Assets.xcassets */; };
 		9C6A617820142CF8003D43E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6A617620142CF8003D43E6 /* LaunchScreen.storyboard */; };
 		9C6A617B20142CF8003D43E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A617A20142CF8003D43E6 /* main.m */; };
+		9C6A618820142D5C003D43E6 /* SYJChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A618520142D5C003D43E6 /* SYJChangeViewController.m */; };
+		9C6A618920142D5C003D43E6 /* ZWIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A618720142D5C003D43E6 /* ZWIntroductionViewController.m */; };
+		9C6A619320142DC8003D43E6 /* SYJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A618C20142DC8003D43E6 /* SYJBaseViewController.m */; };
+		9C6A619420142DC8003D43E6 /* SYJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A618E20142DC8003D43E6 /* SYJNavigationController.m */; };
+		9C6A619620142DC8003D43E6 /* SYJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A619220142DC8003D43E6 /* SYJTabBarController.m */; };
+		9C6A619B20142EDA003D43E6 /* SYJLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A619920142EDA003D43E6 /* SYJLogInViewController.m */; };
+		9C6A619C20142EDA003D43E6 /* SYJLogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6A619A20142EDA003D43E6 /* SYJLogInViewController.xib */; };
+		9C6A61A120142FEC003D43E6 /* SYJMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A619F20142FEC003D43E6 /* SYJMeViewController.m */; };
+		9C6A61A220142FEC003D43E6 /* SYJMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6A61A020142FEC003D43E6 /* SYJMeViewController.xib */; };
+		9C6A61A72014309E003D43E6 /* SYJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A61A52014309E003D43E6 /* SYJHomeViewController.m */; };
+		9C6A61A82014309E003D43E6 /* SYJHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6A61A62014309E003D43E6 /* SYJHomeViewController.xib */; };
+		9C6A61AD201432ED003D43E6 /* UIImage+SYJImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6A61AC201432ED003D43E6 /* UIImage+SYJImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C659D3C20148073009DD5D0 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		9C659D3D20148073009DD5D0 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		9C659D3E20148073009DD5D0 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9C659D3F20148073009DD5D0 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9C659D4020148073009DD5D0 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		9C659D4120148073009DD5D0 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		9C659D4220148073009DD5D0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		9C659D4320148073009DD5D0 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		9C659D4420148073009DD5D0 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		9C659D4520148073009DD5D0 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		9C659D4620148073009DD5D0 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		9C659D4D201481C0009DD5D0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		9C6A616820142CF8003D43E6 /* 宠窝.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "宠窝.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6A616B20142CF8003D43E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C6A616C20142CF8003D43E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9C6A616E20142CF8003D43E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9C6A616F20142CF8003D43E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9C6A617220142CF8003D43E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C6A617420142CF8003D43E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C6A617720142CF8003D43E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C6A617920142CF8003D43E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C6A617A20142CF8003D43E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C6A618420142D5C003D43E6 /* SYJChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYJChangeViewController.h; sourceTree = "<group>"; };
+		9C6A618520142D5C003D43E6 /* SYJChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYJChangeViewController.m; sourceTree = "<group>"; };
+		9C6A618620142D5C003D43E6 /* ZWIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWIntroductionViewController.h; sourceTree = "<group>"; };
+		9C6A618720142D5C003D43E6 /* ZWIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWIntroductionViewController.m; sourceTree = "<group>"; };
+		9C6A618B20142DC8003D43E6 /* SYJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYJBaseViewController.h; sourceTree = "<group>"; };
+		9C6A618C20142DC8003D43E6 /* SYJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYJBaseViewController.m; sourceTree = "<group>"; };
+		9C6A618D20142DC8003D43E6 /* SYJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYJNavigationController.h; sourceTree = "<group>"; };
+		9C6A618E20142DC8003D43E6 /* SYJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYJNavigationController.m; sourceTree = "<group>"; };
+		9C6A619120142DC8003D43E6 /* SYJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYJTabBarController.h; sourceTree = "<group>"; };
+		9C6A619220142DC8003D43E6 /* SYJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYJTabBarController.m; sourceTree = "<group>"; };
+		9C6A619820142EDA003D43E6 /* SYJLogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYJLogInViewController.h; sourceTree = "<group>"; };
+		9C6A619920142EDA003D43E6 /* SYJLogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYJLogInViewController.m; sourceTree = "<group>"; };
+		9C6A619A20142EDA003D43E6 /* SYJLogInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYJLogInViewController.xib; sourceTree = "<group>"; };
+		9C6A619E20142FEC003D43E6 /* SYJMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYJMeViewController.h; sourceTree = "<group>"; };
+		9C6A619F20142FEC003D43E6 /* SYJMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYJMeViewController.m; sourceTree = "<group>"; };
+		9C6A61A020142FEC003D43E6 /* SYJMeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYJMeViewController.xib; sourceTree = "<group>"; };
+		9C6A61A42014309E003D43E6 /* SYJHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYJHomeViewController.h; sourceTree = "<group>"; };
+		9C6A61A52014309E003D43E6 /* SYJHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYJHomeViewController.m; sourceTree = "<group>"; };
+		9C6A61A62014309E003D43E6 /* SYJHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYJHomeViewController.xib; sourceTree = "<group>"; };
+		9C6A61A9201430F5003D43E6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9C6A61AB201432ED003D43E6 /* UIImage+SYJImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SYJImage.h"; sourceTree = "<group>"; };
+		9C6A61AC201432ED003D43E6 /* UIImage+SYJImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SYJImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +80,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C659D4E201481C0009DD5D0 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C659D3B20148073009DD5D0 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				9C659D3C20148073009DD5D0 /* FMDatabase.h */,
+				9C659D3D20148073009DD5D0 /* FMDatabase.m */,
+				9C659D3E20148073009DD5D0 /* FMDatabaseAdditions.h */,
+				9C659D3F20148073009DD5D0 /* FMDatabaseAdditions.m */,
+				9C659D4020148073009DD5D0 /* FMDatabasePool.h */,
+				9C659D4120148073009DD5D0 /* FMDatabasePool.m */,
+				9C659D4220148073009DD5D0 /* FMDatabaseQueue.h */,
+				9C659D4320148073009DD5D0 /* FMDatabaseQueue.m */,
+				9C659D4420148073009DD5D0 /* FMDB.h */,
+				9C659D4520148073009DD5D0 /* FMResultSet.h */,
+				9C659D4620148073009DD5D0 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		9C659D4C201481BF009DD5D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C659D4D201481C0009DD5D0 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C6A615F20142CF8003D43E6 = {
 			isa = PBXGroup;
 			children = (
 				9C6A616A20142CF8003D43E6 /* 宠窝 */,
 				9C6A616920142CF8003D43E6 /* Products */,
+				9C659D4C201481BF009DD5D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +133,101 @@
 		9C6A616A20142CF8003D43E6 /* 宠窝 */ = {
 			isa = PBXGroup;
 			children = (
+				9C6A61A9201430F5003D43E6 /* PrefixHeader.pch */,
 				9C6A616B20142CF8003D43E6 /* AppDelegate.h */,
 				9C6A616C20142CF8003D43E6 /* AppDelegate.m */,
-				9C6A616E20142CF8003D43E6 /* ViewController.h */,
-				9C6A616F20142CF8003D43E6 /* ViewController.m */,
-				9C6A617120142CF8003D43E6 /* Main.storyboard */,
 				9C6A617420142CF8003D43E6 /* Assets.xcassets */,
 				9C6A617620142CF8003D43E6 /* LaunchScreen.storyboard */,
 				9C6A617920142CF8003D43E6 /* Info.plist */,
 				9C6A617A20142CF8003D43E6 /* main.m */,
+				9C6A61AA201432D9003D43E6 /* Tools */,
+				9C6A618A20142DC8003D43E6 /* Root */,
+				9C6A618120142D46003D43E6 /* AppClass */,
 			);
 			path = "宠窝";
+			sourceTree = "<group>";
+		};
+		9C6A618120142D46003D43E6 /* AppClass */ = {
+			isa = PBXGroup;
+			children = (
+				9C6A61A320143021003D43E6 /* 首页 */,
+				9C6A619D20142FD3003D43E6 /* 我的 */,
+				9C6A619720142EB8003D43E6 /* 登录注册 */,
+				9C6A618220142D5C003D43E6 /* 引导页 */,
+			);
+			path = AppClass;
+			sourceTree = "<group>";
+		};
+		9C6A618220142D5C003D43E6 /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				9C6A618320142D5C003D43E6 /* ZWIntroductionViewController */,
+			);
+			path = "引导页";
+			sourceTree = "<group>";
+		};
+		9C6A618320142D5C003D43E6 /* ZWIntroductionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9C6A618420142D5C003D43E6 /* SYJChangeViewController.h */,
+				9C6A618520142D5C003D43E6 /* SYJChangeViewController.m */,
+				9C6A618620142D5C003D43E6 /* ZWIntroductionViewController.h */,
+				9C6A618720142D5C003D43E6 /* ZWIntroductionViewController.m */,
+			);
+			path = ZWIntroductionViewController;
+			sourceTree = "<group>";
+		};
+		9C6A618A20142DC8003D43E6 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9C6A618B20142DC8003D43E6 /* SYJBaseViewController.h */,
+				9C6A618C20142DC8003D43E6 /* SYJBaseViewController.m */,
+				9C6A618D20142DC8003D43E6 /* SYJNavigationController.h */,
+				9C6A618E20142DC8003D43E6 /* SYJNavigationController.m */,
+				9C6A619120142DC8003D43E6 /* SYJTabBarController.h */,
+				9C6A619220142DC8003D43E6 /* SYJTabBarController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		9C6A619720142EB8003D43E6 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				9C6A619820142EDA003D43E6 /* SYJLogInViewController.h */,
+				9C6A619920142EDA003D43E6 /* SYJLogInViewController.m */,
+				9C6A619A20142EDA003D43E6 /* SYJLogInViewController.xib */,
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		9C6A619D20142FD3003D43E6 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				9C6A619E20142FEC003D43E6 /* SYJMeViewController.h */,
+				9C6A619F20142FEC003D43E6 /* SYJMeViewController.m */,
+				9C6A61A020142FEC003D43E6 /* SYJMeViewController.xib */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		9C6A61A320143021003D43E6 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				9C6A61A42014309E003D43E6 /* SYJHomeViewController.h */,
+				9C6A61A52014309E003D43E6 /* SYJHomeViewController.m */,
+				9C6A61A62014309E003D43E6 /* SYJHomeViewController.xib */,
+			);
+			path = "首页";
+			sourceTree = "<group>";
+		};
+		9C6A61AA201432D9003D43E6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9C659D3B20148073009DD5D0 /* FMDB */,
+				9C6A61AB201432ED003D43E6 /* UIImage+SYJImage.h */,
+				9C6A61AC201432ED003D43E6 /* UIImage+SYJImage.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +288,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C6A61A82014309E003D43E6 /* SYJHomeViewController.xib in Resources */,
+				9C6A619C20142EDA003D43E6 /* SYJLogInViewController.xib in Resources */,
 				9C6A617820142CF8003D43E6 /* LaunchScreen.storyboard in Resources */,
 				9C6A617520142CF8003D43E6 /* Assets.xcassets in Resources */,
-				9C6A617320142CF8003D43E6 /* Main.storyboard in Resources */,
+				9C6A61A220142FEC003D43E6 /* SYJMeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,23 +303,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C6A617020142CF8003D43E6 /* ViewController.m in Sources */,
+				9C6A619620142DC8003D43E6 /* SYJTabBarController.m in Sources */,
 				9C6A617B20142CF8003D43E6 /* main.m in Sources */,
+				9C6A619320142DC8003D43E6 /* SYJBaseViewController.m in Sources */,
+				9C659D4720148073009DD5D0 /* FMDatabase.m in Sources */,
+				9C6A619B20142EDA003D43E6 /* SYJLogInViewController.m in Sources */,
+				9C659D4A20148073009DD5D0 /* FMDatabaseQueue.m in Sources */,
+				9C659D4B20148073009DD5D0 /* FMResultSet.m in Sources */,
+				9C6A61AD201432ED003D43E6 /* UIImage+SYJImage.m in Sources */,
 				9C6A616D20142CF8003D43E6 /* AppDelegate.m in Sources */,
+				9C6A619420142DC8003D43E6 /* SYJNavigationController.m in Sources */,
+				9C659D4820148073009DD5D0 /* FMDatabaseAdditions.m in Sources */,
+				9C6A61A72014309E003D43E6 /* SYJHomeViewController.m in Sources */,
+				9C6A618820142D5C003D43E6 /* SYJChangeViewController.m in Sources */,
+				9C659D4920148073009DD5D0 /* FMDatabasePool.m in Sources */,
+				9C6A618920142D5C003D43E6 /* ZWIntroductionViewController.m in Sources */,
+				9C6A61A120142FEC003D43E6 /* SYJMeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9C6A617120142CF8003D43E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C6A617220142CF8003D43E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9C6A617620142CF8003D43E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -279,6 +445,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PCREMRX9L;
+				GCC_PREFIX_HEADER = "/Users/soso/Desktop/宠窝/宠窝/PrefixHeader.pch";
 				INFOPLIST_FILE = "宠窝/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ChongWo.--";
@@ -292,6 +460,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3PCREMRX9L;
+				GCC_PREFIX_HEADER = "/Users/soso/Desktop/宠窝/宠窝/PrefixHeader.pch";
 				INFOPLIST_FILE = "宠窝/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ChongWo.--";

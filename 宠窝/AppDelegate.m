@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SYJChangeViewController.h"
+#import "SYJLogInViewController.h"
+#import "SYJNavigationController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,31 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    
+    NSString *key = @"CFBundleShortVersionString";
+    // 获得当前软件的版本号
+    NSString *currentVersion = [NSBundle mainBundle].infoDictionary[key];
+    // 获得沙盒中存储的版本号
+    NSString *sanboxVersion = [[NSUserDefaults standardUserDefaults] stringForKey:key];
+    if (![currentVersion isEqualToString:sanboxVersion])
+    {
+        //UIWindow *window = [UIApplication sharedApplication].keyWindow;
+        //引导页
+        SYJChangeViewController *changeView=[[SYJChangeViewController alloc]init];
+        self.window.rootViewController=changeView;
+        // 存储版本号
+        [[NSUserDefaults standardUserDefaults] setObject:currentVersion forKey:key];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    else
+    {
+        SYJLogInViewController *login=[[SYJLogInViewController alloc]init];
+        SYJNavigationController *nav=[[SYJNavigationController alloc]initWithRootViewController:login];
+        self.window.rootViewController=nav;
+    }
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
