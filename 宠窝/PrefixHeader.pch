@@ -16,8 +16,30 @@
 #endif /* PrefixHeader_pch */
 
 #import "FMDB.h"
+#import "YTKKeyValueStore.h"
+
+#import "SYJProgressHUD.h"
+#define usertable @"userinfo_table"
+#define goodstable @"goodsinfo_table"
 
 #define SYJColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 #define NAVBAR_Color SYJColor(0, 189, 255, 1)
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
+//是否是手机
+#define isIPhone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+//是否是iphoneX
+#define isIPhoneX (ScreenWidth >= 375.0f && ScreenHeight >= 812.0f && isIPhone)
+//苹果X宽高
+#define IPHONE_X_SCREEN_WIDTH 375
+#define IPHONE_X_SCREEN_HEIGHT 812
+//底部安全高度
+#define BOTTOM_SAFE_HEIGHT (isIPhoneX ? 34 : 0)
+//系统手势高度
+#define SYSTEM_GESTURE_HEIGHT (isIPhoneX ? 13 : 0)
+//tabbar高度
+#define TABBAR_HEIGHT (49 + BOTTOM_SAFE_HEIGHT)
+//状态栏高度
+#define STATUS_HEIGHT (isIPhoneX ? 44 : 20)
+//导航栏高
+#define NAVBAR_HEIGHT 44

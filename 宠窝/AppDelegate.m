@@ -19,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
-    
+    self.window.backgroundColor=SYJColor(225, 239, 252, 1);
     NSString *key = @"CFBundleShortVersionString";
     // 获得当前软件的版本号
     NSString *currentVersion = [NSBundle mainBundle].infoDictionary[key];
